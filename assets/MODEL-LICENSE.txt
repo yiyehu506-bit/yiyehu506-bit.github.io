@@ -1,0 +1,42 @@
+3D 人物模型来源与授权 / 3D character source & licenses
+=====================================================
+
+人物 Character : "Jone" —— 为本站自制的年轻东亚男性角色（未购买、未使用任何付费或授权不明的模型）
+制作方式 Built with: Blender 4.2 + MPFB 2.0.18（MakeHuman 官方 Blender 插件）无头生成；
+                    MPFB 只是制作工具，本站不分发其代码（GPL）。人物所用全部素材的授权如下。
+
+使用的素材（逐个列出）/ Assets used
+---------------------------------------------------------------------------
+1. 人体基础网格 + 体型/面部 morph targets（MakeHuman base mesh & targets）
+   作者 MakeHuman Team（Data Collection AB, Joel Palmius, Jonas Hauquier）
+   授权 CC0 1.0（2020 年 9 月起明确以 CC0 发布）
+   https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html
+2. 皮肤 young_asian_male（贴图 young_lightskinned_male_diffuse3）—— MakeHuman 系统素材，CC0 1.0
+3. 眼球 high-poly + 虹膜材质 brown —— MakeHuman 系统素材，CC0 1.0
+4. 眉毛 eyebrow001、睫毛 eyelashes02、牙齿 teeth_base —— MakeHuman 系统素材，CC0 1.0
+5. 发型 short02 —— MakeHuman 系统素材，CC0 1.0
+6. 鞋子 shoes05 —— MakeHuman 系统素材，CC0 1.0
+   （2–6 同出自 makehuman_system_assets_cc0.zip，链接同 1）
+7. 衬衫 "elvs_male_shirt_untucked_bd1"
+   作者 Elvaerwyn   授权 CC BY（MakeHuman 社区仓库标注 "CC-BY"，未写版本号；本站按 CC BY 4.0 的要求署名）
+   来源 http://www.makehumancommunity.org/node/1800
+   （资源包 shirts02：https://static.makehumancommunity.org/assets/assetpacks/shirts02.html）
+   ※ 必须保留署名：Shirt by Elvaerwyn, CC BY. 网页角落已有署名。
+8. 工装裤 "cortu_cargo_pants"
+   作者 Cortu   授权 CC0 1.0
+   来源 http://www.makehumancommunity.org/node/2798
+   （资源包 pants01：https://static.makehumancommunity.org/assets/assetpacks/pants01.html）
+
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+本站做的修改 / Modifications
+- 年龄约 20 岁的男性、亚洲人种 100%，并调整了脸型、眼睛、鼻子、嘴和下巴的 morph 参数
+- 手臂摆成自然下垂的站姿并烘焙进网格；删除被衣服盖住的皮肤面，防止穿模
+- 重新调色：头发调成深棕黑；衬衫调成米色、裤子调成炭灰（基于原贴图明暗）；皮肤调暖并加了脸颊、鼻尖、耳朵的红润（顶点色）
+- 按部位烘焙了 ID（用于悬停发光和点击彩蛋），并单独区分耳朵
+- 贴图缩到 2K/1K/512 并重新编码为 JPEG/PNG；网格量化 + meshopt 压缩
+- 以 base64 内嵌在 assets/model-avatar.js 中，便于 file:// 离线打开
+- 渲染时：物理材质，皮肤加了暖色伪次表面散射，角膜加了 clearcoat 高光和小高光点，视线跟随鼠标，会自动眨眼
+
+运行库 Runtime libraries (MIT): three.js r187（见 three-LICENSE.txt），meshoptimizer decoder（随 three.js 分发，MIT）。
