@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jone · 运营 | 个人简历</title>
+<meta name="description" content="Jone，求职意向：运营。4 年短剧与短视频内容运营经验，曾任职上海七猫文化传媒有限公司、上海闪剧文化传媒有限公司；燕山大学 · 新媒体运营 · 本科。">
+<meta name="theme-color" content="#f5f3ee">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem('jone-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<div class="bg-grid" data-parallax="0.06" aria-hidden="true"></div>
+<div class="bg-noise" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"><span></span></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top"><span class="brand-mark">J</span><span>Jone<em> · 运营</em></span></a>
+  <nav class="nav-links" aria-label="页面导航">
+    <a href="#metrics">数据</a><a href="#skills">技能</a><a href="#experience">经历</a><a href="#projects">成果</a><a href="#education">教育</a><a href="#contact">联系</a>
+  </nav>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换亮色/暗色主题">
+    <span class="ti-sun">☀</span><span class="ti-moon">☾</span>
+  </button>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="pill reveal"><span class="dot"></span>求职意向：运营</div>
+      <h1 class="hero-title reveal">
+        <span class="hero-name">Jone</span>
+        <span class="hero-type"><span id="typed"></span><span class="caret">|</span></span>
+      </h1>
+      <p class="hero-meta reveal"><span>男 · 28 岁 · 4 年经验</span><span class="sep"></span><a href="mailto:onej76483@gmail.com">onej76483@gmail.com</a></p>
+      <p class="hero-summary reveal">4 年短剧与短视频内容运营，负责上架维护、标题封面与标签、推荐调整和活动复盘。</p>
+      <div class="hero-highlight reveal glass">
+        <span class="hl-label">代表结果</span>
+        <span>七猫点击率 <b>5.8%→7.2%</b>，观看时长 <b>+12%</b>；闪剧完播率 <b>28%→35%</b>，专题播放量 <b>+15%</b>。</span>
+      </div>
+      <div class="hero-cta reveal">
+        <a class="btn btn-primary magnetic" href="#experience"><span>查看工作经历</span><i>→</i></a>
+        <a class="btn btn-ghost magnetic" href="mailto:onej76483@gmail.com"><span>发送邮件</span><i>✉</i></a>
+      </div>
+    </div>
+    <div class="hero-figure reveal">
+      <div class="fig-stage" id="figStage">
+        <div class="fig-ring" aria-hidden="true"></div>
+        <span class="fig-mark fig-mark-tl" aria-hidden="true">FIG. 01</span>
+        <span class="fig-mark fig-mark-br" aria-hidden="true">JONE / 运营</span>
+        <svg id="boy" viewBox="0 0 420 580" role="img" aria-label="人物插画（3D 不可用时的备用图）">
+          <defs>
+            <radialGradient id="gSkin" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#fde6d3"/><stop offset=".55" stop-color="#f3cfb2"/><stop offset="1" stop-color="#dea98a"/></radialGradient>
+            <linearGradient id="gNeck" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d49b7c"/><stop offset="1" stop-color="#ecc3a5"/></linearGradient>
+            <radialGradient id="gHair" cx=".36" cy=".22" r=".95"><stop offset="0" stop-color="#5c4b40"/><stop offset=".55" stop-color="#30271f"/><stop offset="1" stop-color="#1c1612"/></radialGradient>
+            <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b2d31"/><stop offset=".42" stop-color="#474a51"/><stop offset=".62" stop-color="#3f4248"/><stop offset="1" stop-color="#292b2f"/></linearGradient>
+            <linearGradient id="gTopV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".08"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient>
+            <linearGradient id="gSleeveL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#26282c"/><stop offset=".6" stop-color="#43464d"/><stop offset="1" stop-color="#34363b"/></linearGradient>
+            <linearGradient id="gSleeveR" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#232529"/><stop offset=".6" stop-color="#3d4046"/><stop offset="1" stop-color="#303237"/></linearGradient>
+            <linearGradient id="gPants" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a3967f"/><stop offset=".4" stop-color="#c7bca7"/><stop offset=".6" stop-color="#bdb19b"/><stop offset="1" stop-color="#9c907a"/></linearGradient>
+            <linearGradient id="gShoe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e2ddd3"/></linearGradient>
+            <radialGradient id="gIris" cx=".42" cy=".38" r=".7"><stop offset="0" stop-color="#7a573f"/><stop offset=".65" stop-color="#3b281c"/><stop offset="1" stop-color="#1f150e"/></radialGradient>
+            <radialGradient id="gEye" cx=".5" cy=".35" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ece7e0"/></radialGradient>
+            <clipPath id="cEyeL"><ellipse cx="180" cy="186" rx="14" ry="16"/></clipPath>
+            <clipPath id="cEyeR"><ellipse cx="240" cy="186" rx="14" ry="16"/></clipPath>
+            <filter id="fSoft" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="7"/></filter>
+          </defs>
+
+          <ellipse class="ground" cx="210" cy="552" rx="118" ry="12" fill="#000" opacity=".16" filter="url(#fSoft)"/>
+
+          <!-- 鞋子 -->
+          <g class="part" data-part="鞋子" tabindex="0" aria-label="鞋子">
+            <path d="M138,510 C138,498 200,498 202,510 L204,526 C205,536 198,542 188,542 L138,542 C126,542 122,534 126,526 C130,518 138,518 138,510 Z" fill="url(#gShoe)"/>
+            <path d="M282,510 C282,498 220,498 218,510 L216,526 C215,536 222,542 232,542 L282,542 C294,542 298,534 294,526 C290,518 282,518 282,510 Z" fill="url(#gShoe)"/>
+            <path d="M123,534 C123,541 129,545 137,545 L190,545 C200,545 205,540 205,533 L205,538 C205,546 198,550 190,550 L136,550 C126,550 120,543 123,534 Z" fill="#8f8a82"/>
+            <path d="M297,534 C297,541 291,545 283,545 L230,545 C220,545 215,540 215,533 L215,538 C215,546 222,550 230,550 L284,550 C294,550 300,543 297,534 Z" fill="#8f8a82"/>
+            <path class="ns" d="M158,511 L184,511 M156,517 L186,517 M236,511 L262,511 M234,517 L264,517" stroke="#cfc8bc" stroke-width="2" stroke-linecap="round" fill="none"/>
+            <path class="ns" d="M136,530 C156,526 178,528 199,522 M284,530 C264,526 242,528 221,522" stroke="#6f8b80" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+          </g>
+
+          <!-- 裤子/腿 -->
+          <g class="part" data-part="裤子" tabindex="0" aria-label="裤子">
+            <path d="M140,392 H280 C283,410 285,425 284,440 L276,510 C262,514 236,514 222,510 L213,438 C211,433 209,433 207,438 L198,510 C184,514 158,514 144,510 L136,440 C135,425 137,410 140,392 Z" fill="url(#gPants)"/>
+            <path d="M139,392 H281 L282,404 H138 Z" fill="#9b8f78"/>
+            <path d="M144,500 L198,500 L198,510 C184,514 158,514 144,510 Z M222,500 L276,500 L276,510 C262,514 236,514 222,510 Z" fill="#a39780"/>
+            <path class="ns" d="M207,438 L198,510 L193,510 L203,440 Z" fill="#6e6455" opacity=".25"/>
+            <path class="ns" d="M174,412 L171,498 M248,412 L251,498 M210,404 L210,432" stroke="#8a7f6c" stroke-width="1.2" opacity=".55" fill="none"/>
+            <path class="ns" d="M158,404 C164,412 178,414 190,410" stroke="#8a7f6c" stroke-width="1.2" opacity=".5" fill="none"/>
+          </g>
+
+          <g class="breathe">
+            <!-- 上衣 -->
+            <g class="part" data-part="上衣" tabindex="0" aria-label="上衣">
+              <path d="M152,258 C172,250 248,250 268,258 C284,264 292,280 292,300 L288,396 C250,406 170,406 132,396 L128,300 C128,280 136,264 152,258 Z" fill="url(#gTop)"/>
+              <path class="ns" d="M152,258 C172,250 248,250 268,258 C284,264 292,280 292,300 L288,396 C250,406 170,406 132,396 L128,300 C128,280 136,264 152,258 Z" fill="url(#gTopV)"/>
+              <path d="M132,384 C170,394 250,394 288,384 L288,398 C250,408 170,408 132,398 Z" fill="#26282b"/>
+              <path class="ns" d="M146,390 L146,401 M162,392 L162,404 M178,394 L178,405 M194,395 L194,406 M210,395 L210,406 M226,395 L226,406 M242,394 L242,405 M258,392 L258,404 M274,390 L274,401" stroke="#3a3c41" stroke-width="1.2"/>
+              <path d="M180,254 C190,278 230,278 240,254 L233,252 C226,268 194,268 187,252 Z" fill="#232528"/>
+              <path class="ns" d="M168,330 C182,338 196,340 208,337 M218,350 C232,352 246,348 256,340" stroke="#fff" stroke-opacity=".07" stroke-width="2" fill="none"/>
+              <circle class="ns" cx="246" cy="300" r="5" fill="#7f9c90"/>
+            </g>
+            <!-- 左臂 -->
+            <g class="part" data-part="左臂" tabindex="0" aria-label="左臂">
+              <path d="M154,262 C134,264 120,282 116,306 L106,368 C112,380 136,382 144,372 L152,312 C153,296 154,280 154,262 Z" fill="url(#gSleeveL)"/>
+              <path d="M106,366 C114,376 136,378 144,370 L143,380 C134,388 112,386 105,376 Z" fill="#232528"/>
+              <path class="ns" d="M128,300 C126,320 122,340 120,356" stroke="#fff" stroke-opacity=".07" stroke-width="2" fill="none"/>
+            </g>
+            <!-- 右臂 -->
+            <g class="part" data-part="右臂" tabindex="0" aria-label="右臂">
+              <path d="M266,262 C286,264 300,282 304,306 L314,368 C308,380 284,382 276,372 L268,312 C267,296 266,280 266,262 Z" fill="url(#gSleeveR)"/>
+              <path d="M314,366 C306,376 284,378 276,370 L277,380 C286,388 308,386 315,376 Z" fill="#232528"/>
+            </g>
+            <!-- 双手 -->
+            <g class="part" data-part="双手" tabindex="0" aria-label="双手">
+              <path d="M110,380 C105,393 110,407 122,410 C134,412 142,402 142,390 C142,382 136,378 126,378 C118,378 112,378 110,380 Z" fill="url(#gSkin)"/>
+              <path d="M140,386 C147,388 148,398 141,401 Z" fill="#eec4a6"/>
+              <path d="M310,380 C315,393 310,407 298,410 C286,412 278,402 278,390 C278,382 284,378 294,378 C302,378 308,378 310,380 Z" fill="url(#gSkin)"/>
+              <path d="M280,386 C273,388 272,398 279,401 Z" fill="#eec4a6"/>
+              <path class="ns" d="M116,398 C120,402 126,403 130,402 M290,402 C294,403 300,402 304,398" stroke="#cf9a7c" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+            </g>
+
+            <g class="head">
+              <!-- 脸/头 -->
+              <g class="part" data-part="脸部" tabindex="0" aria-label="脸部">
+                <path d="M194,226 L226,226 L228,262 C220,268 200,268 192,262 Z" fill="url(#gNeck)"/>
+                <ellipse cx="132" cy="182" rx="14" ry="18" fill="#efc6a8"/>
+                <ellipse cx="288" cy="182" rx="14" ry="18" fill="#e9bc9d"/>
+                <path class="ns" d="M136,174 C128,178 128,188 136,192 M284,174 C292,178 292,188 284,192" stroke="#cf9578" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+                <path d="M130,160 C130,108 166,86 210,86 C254,86 290,108 290,160 C290,214 256,248 210,248 C164,248 130,214 130,160 Z" fill="url(#gSkin)"/>
+                <ellipse class="ns" cx="164" cy="210" rx="14" ry="8" fill="#ee9c86" opacity=".32"/>
+                <ellipse class="ns" cx="256" cy="210" rx="14" ry="8" fill="#ee9c86" opacity=".32"/>
+                <path class="ns" d="M206,200 C209,204 213,204 216,200" stroke="#c98f70" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+                <path class="ns" d="M195,220 C203,231 219,231 227,220 C219,224 203,224 195,220 Z" fill="#9e4d3d"/>
+                <path class="ns" d="M164,154 C172,148 186,148 194,152 M226,152 C234,148 248,148 256,154" stroke="#3a2c24" stroke-width="5" stroke-linecap="round" fill="none"/>
+              </g>
+              <!-- 眼睛 -->
+              <g class="part part-eyes" data-part="眼睛" tabindex="0" aria-label="眼睛">
+                <g class="eye">
+                  <ellipse cx="180" cy="186" rx="14" ry="16" fill="url(#gEye)"/>
+                  <g clip-path="url(#cEyeL)"><g class="pupil">
+                    <circle class="ns" cx="180" cy="188" r="10" fill="url(#gIris)"/>
+                    <circle class="ns" cx="180" cy="188" r="4.6" fill="#120c08"/>
+                    <circle class="ns" cx="176.5" cy="183.5" r="3.2" fill="#fff"/>
+                    <circle class="ns" cx="183.5" cy="192" r="1.4" fill="#fff" opacity=".8"/>
+                  </g></g>
+                  <path class="ns" d="M165,178 C172,167 189,167 195,178" stroke="#2b211b" stroke-width="3" stroke-linecap="round" fill="none"/>
+                </g>
+                <g class="eye">
+                  <ellipse cx="240" cy="186" rx="14" ry="16" fill="url(#gEye)"/>
+                  <g clip-path="url(#cEyeR)"><g class="pupil">
+                    <circle class="ns" cx="240" cy="188" r="10" fill="url(#gIris)"/>
+                    <circle class="ns" cx="240" cy="188" r="4.6" fill="#120c08"/>
+                    <circle class="ns" cx="236.5" cy="183.5" r="3.2" fill="#fff"/>
+                    <circle class="ns" cx="243.5" cy="192" r="1.4" fill="#fff" opacity=".8"/>
+                  </g></g>
+                  <path class="ns" d="M225,178 C231,167 248,167 255,178" stroke="#2b211b" stroke-width="3" stroke-linecap="round" fill="none"/>
+                </g>
+              </g>
+              <!-- 头发 -->
+              <g class="part" data-part="头发" tabindex="0" aria-label="头发">
+                <path d="M126,176 C116,110 150,70 210,68 C272,66 306,108 294,178 C290,160 284,146 274,136 C268,150 252,156 236,150 C240,142 240,134 236,128 C226,144 204,152 182,146 C186,140 188,134 186,128 C174,144 156,152 140,146 C134,156 130,166 126,176 Z" fill="url(#gHair)"/>
+                <path d="M212,70 C204,52 218,40 234,44 C222,48 218,58 222,70 Z" fill="#2a221d"/>
+                <path d="M126,176 C124,186 128,196 134,200 C132,190 132,182 136,172 Z M294,178 C296,188 292,196 286,200 C288,190 288,182 284,172 Z" fill="#2a221d"/>
+                <path class="ns" d="M158,100 C180,84 214,80 240,88 C214,88 190,94 170,108 Z" fill="#fff" opacity=".13"/>
+                <path class="ns" d="M250,96 C266,104 278,118 282,132" stroke="#fff" stroke-opacity=".1" stroke-width="3" stroke-linecap="round" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <div class="part-label" id="partLabel" aria-hidden="true"><i></i><span></span></div>
+      </div>
+      <p class="fig-caption"><span class="fig-dot"></span>拖动旋转 360° · 悬停部位发光 · 点击部位有彩蛋</p>
+      <p class="fig-credit">3D 人物：基于 MPFB / MakeHuman CC0 资产自制 · 衬衫 Elvaerwyn（CC BY）· 详见 <a href="assets/MODEL-LICENSE.txt" target="_blank" rel="noopener">MODEL-LICENSE</a></p>
+    </div>
+    <a class="scroll-hint" href="#metrics" aria-label="向下滚动"><span></span></a>
+  </section>
+
+  <!-- METRICS -->
+  <section class="section" id="metrics">
+    <div class="section-head reveal">
+      <span class="eyebrow">01 · DATA DASHBOARD</span>
+      <h2>核心数据看板</h2>
+      <p>以下数据均来自过往岗位的运营结果。</p>
+    </div>
+    <div class="metrics-grid stagger">
+      <article class="metric glass tilt span-2">
+        <div class="metric-top"><span class="tag">七猫</span><span class="metric-name">重点内容点击率</span></div>
+        <div class="metric-flow">
+          <span class="num muted"><b class="count" data-to="5.8" data-dec="1">5.8</b>%</span>
+          <span class="arrow">→</span>
+          <span class="num grad"><b class="count" data-to="7.2" data-dec="1">7.2</b>%</span>
+        </div>
+        <div class="bar"><span data-w="72"></span></div>
+        <p class="metric-note">优化标题、封面及标签几百余部</p>
+      </article>
+      <article class="metric glass tilt span-2">
+        <div class="metric-top"><span class="tag tag-b">闪剧</span><span class="metric-name">重点视频完播率</span></div>
+        <div class="metric-flow">
+          <span class="num muted"><b class="count" data-to="28">28</b>%</span>
+          <span class="arrow">→</span>
+          <span class="num grad"><b class="count" data-to="35">35</b>%</span>
+        </div>
+        <div class="bar"><span data-w="35"></span></div>
+        <p class="metric-note">优化标题、封面、简介与推荐标签共 320 条</p>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag">七猫</span><span class="metric-name">观看时长</span></div>
+        <div class="num grad big">+<b class="count" data-to="12">12</b>%</div>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag">七猫</span><span class="metric-name">完播率提升</span></div>
+        <div class="num grad big"><b class="count" data-to="8">8</b>%</div>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag">七猫</span><span class="metric-name">活动期重点短剧播放量</span></div>
+        <div class="num grad big">+<b class="count" data-to="8">8</b>%</div>
+        <p class="metric-note">平均提升</p>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag">七猫</span><span class="metric-name">入口付费转化率</span></div>
+        <div class="num grad big"><small>约</small><b class="count" data-to="3">3</b>%</div>
+        <p class="metric-note">提升约 3%</p>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag tag-b">闪剧</span><span class="metric-name">专题播放量</span></div>
+        <div class="num grad big">+<b class="count" data-to="15">15</b>%</div>
+        <p class="metric-note">活动期重点视频平均提升</p>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag tag-b">闪剧</span><span class="metric-name">发布维护视频</span></div>
+        <div class="num grad big"><b class="count" data-to="850">850</b><small> 条</small></div>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag tag-b">闪剧</span><span class="metric-name">视频专题</span></div>
+        <div class="num grad big"><b class="count" data-to="8">8</b><small> 场</small></div>
+        <p class="metric-note">参与策划及执行</p>
+      </article>
+      <article class="metric glass tilt">
+        <div class="metric-top"><span class="tag tag-c">经验</span><span class="metric-name">短剧与短视频运营</span></div>
+        <div class="num grad big"><b class="count" data-to="4">4</b><small> 年</small></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head reveal">
+      <span class="eyebrow">02 · SKILL MATRIX</span>
+      <h2>专业技能</h2>
+    </div>
+    <div class="skills-grid stagger">
+      <article class="skill glass tilt">
+        <div class="skill-icon">01 /</div><h3>内容运营</h3>
+        <ul class="chips"><li>内容审核</li><li>发布</li><li>上下架</li><li>分类管理</li><li>资源维护</li><li>标题与封面优化</li></ul>
+      </article>
+      <article class="skill glass tilt">
+        <div class="skill-icon">02 /</div><h3>视频运营</h3>
+        <ul class="chips"><li>视频排期</li><li>素材管理</li><li>内容推荐</li><li>热门内容筛选</li><li>视频数据分析</li></ul>
+      </article>
+      <article class="skill glass tilt">
+        <div class="skill-icon">03 /</div><h3>数据分析</h3>
+        <ul class="chips"><li>播放量</li><li>点击率</li><li>完播率</li><li>平均观看时长</li><li>留存率</li><li>会员转化率</li><li>付费转化率</li></ul>
+      </article>
+      <article class="skill glass tilt">
+        <div class="skill-icon">04 /</div><h3>活动运营</h3>
+        <ul class="chips"><li>专题策划</li><li>活动配置</li><li>素材准备</li><li>数据跟踪</li><li>活动复盘</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-head reveal">
+      <span class="eyebrow">03 · TIMELINE</span>
+      <h2>工作经历</h2>
+    </div>
+    <div class="timeline" id="timeline">
+      <div class="tl-track"><span class="tl-fill" id="tlFill"></span></div>
+
+      <article class="tl-item reveal" id="exp-qimao">
+        <div class="tl-node"></div>
+        <div class="tl-card glass">
+          <header class="tl-head">
+            <div><h3>上海七猫文化传媒有限公司</h3><span class="role">运营</span></div>
+            <time>2024.12 – 2026.10</time>
+          </header>
+          <p class="tl-desc">围绕七猫短剧 App 及站内频道做内容运营，覆盖上架审核、分类推荐、标题封面与简介优化、观看数据分析及活动复盘。</p>
+          <ul class="tl-list stagger">
+            <li id="qm-content"><b>内容运营</b>负责日常上架、审核跟进、分类与资源维护，累计参与一千余部；优化标题、封面及标签几百余部，重点内容点击率由 5.8% 提升至 7.2%。</li>
+            <li id="qm-retention"><b>观看留存</b>跟踪曝光、完播率与流失节点，分析低表现内容并调整推荐，观看时长提升 12%，完播率提升 8%。</li>
+            <li id="qm-activity"><b>活动转化</b>参与热门推荐、新剧上线与专题活动，负责筛选、素材准备、配置与复盘；活动期重点短剧播放量平均提升 8%，入口付费转化率提升约 3%。</li>
+            <li id="qm-recommend"><b>内容推荐</b>结合都市、甜宠、逆袭、重生等题材和观看偏好，协助调整热门、最新上架与分类内容，提高优质短剧曝光。</li>
+            <li><b>跨部门协作</b>对接审核、视频及产品团队，跟进内容上线、播放异常和运营优化需求。</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="tl-item reveal" id="exp-shanju">
+        <div class="tl-node"></div>
+        <div class="tl-card glass">
+          <header class="tl-head">
+            <div><h3>上海闪剧文化传媒有限公司</h3><span class="role">运营</span></div>
+            <time>2022.10 – 2024.12</time>
+          </header>
+          <p class="tl-desc">参与剧情类短视频日常运营，负责发布排期、素材管理、标题封面与简介优化、播放统计和内容推荐。</p>
+          <ul class="tl-list stagger">
+            <li id="sj-content"><b>内容运营</b>负责排期、上传与上下架，累计发布维护视频 850 条，处理展示、重复、分类和标签异常。</li>
+            <li id="sj-optimize"><b>内容优化</b>按剧情亮点和观看偏好优化标题、封面、简介与推荐标签，共 320 条，重点视频完播率由 28% 提升至 35%。</li>
+            <li id="sj-activity"><b>活动运营</b>参与策划及执行 8 场视频专题，负责素材、配置、上线检查与数据统计；活动期重点视频播放量平均提升 15%。</li>
+            <li id="sj-data"><b>数据监控</b>按日统计播放量、点击率、完播率、观看时长与互动，对比题材表现，并筛选高表现内容参与热门推荐。</li>
+            <li><b>日常维护</b>检查播放异常、内容重复和标签错误，及时反馈并跟进处理，保障视频按计划更新。</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-head reveal">
+      <span class="eyebrow">04 · SELECTED WORK</span>
+      <h2>代表成果</h2>
+      <p>点击卡片展开详情，或跳转到对应经历。</p>
+    </div>
+    <div class="projects-grid stagger">
+      <article class="project glass tilt" tabindex="0" data-target="qm-content">
+        <div class="p-head"><span class="tag">七猫</span><span class="p-kpi">5.8% → 7.2%</span></div>
+        <h3>标题封面与标签优化</h3>
+        <p class="p-sum">重点内容点击率由 5.8% 提升至 7.2%。</p>
+        <div class="p-detail"><p>负责日常上架、审核跟进、分类与资源维护，累计参与一千余部；优化标题、封面及标签几百余部。</p></div>
+        <div class="p-actions"><button class="p-expand" type="button">展开详情</button><a class="p-jump" href="#qm-content">查看经历 →</a></div>
+      </article>
+      <article class="project glass tilt" tabindex="0" data-target="qm-retention">
+        <div class="p-head"><span class="tag">七猫</span><span class="p-kpi">观看时长 +12%</span></div>
+        <h3>观看留存分析与推荐调整</h3>
+        <p class="p-sum">观看时长提升 12%，完播率提升 8%。</p>
+        <div class="p-detail"><p>跟踪曝光、完播率与流失节点，分析低表现内容并调整推荐。</p></div>
+        <div class="p-actions"><button class="p-expand" type="button">展开详情</button><a class="p-jump" href="#qm-retention">查看经历 →</a></div>
+      </article>
+      <article class="project glass tilt" tabindex="0" data-target="qm-activity">
+        <div class="p-head"><span class="tag">七猫</span><span class="p-kpi">付费转化 约+3%</span></div>
+        <h3>热门推荐与专题活动转化</h3>
+        <p class="p-sum">活动期重点短剧播放量平均提升 8%，入口付费转化率提升约 3%。</p>
+        <div class="p-detail"><p>参与热门推荐、新剧上线与专题活动，负责筛选、素材准备、配置与复盘。</p></div>
+        <div class="p-actions"><button class="p-expand" type="button">展开详情</button><a class="p-jump" href="#qm-activity">查看经历 →</a></div>
+      </article>
+      <article class="project glass tilt" tabindex="0" data-target="sj-optimize">
+        <div class="p-head"><span class="tag tag-b">闪剧</span><span class="p-kpi">28% → 35%</span></div>
+        <h3>剧情短视频内容优化</h3>
+        <p class="p-sum">优化 320 条，重点视频完播率由 28% 提升至 35%。</p>
+        <div class="p-detail"><p>按剧情亮点和观看偏好优化标题、封面、简介与推荐标签。</p></div>
+        <div class="p-actions"><button class="p-expand" type="button">展开详情</button><a class="p-jump" href="#sj-optimize">查看经历 →</a></div>
+      </article>
+      <article class="project glass tilt" tabindex="0" data-target="sj-activity">
+        <div class="p-head"><span class="tag tag-b">闪剧</span><span class="p-kpi">8 场 · +15%</span></div>
+        <h3>视频专题策划与执行</h3>
+        <p class="p-sum">参与策划及执行 8 场视频专题，活动期重点视频播放量平均提升 15%。</p>
+        <div class="p-detail"><p>负责素材、配置、上线检查与数据统计。</p></div>
+        <div class="p-actions"><button class="p-expand" type="button">展开详情</button><a class="p-jump" href="#sj-activity">查看经历 →</a></div>
+      </article>
+      <article class="project glass tilt" tabindex="0" data-target="sj-content">
+        <div class="p-head"><span class="tag tag-b">闪剧</span><span class="p-kpi">850 条</span></div>
+        <h3>视频发布与日常维护</h3>
+        <p class="p-sum">累计发布维护视频 850 条。</p>
+        <div class="p-detail"><p>负责排期、上传与上下架，处理展示、重复、分类和标签异常。</p></div>
+        <div class="p-actions"><button class="p-expand" type="button">展开详情</button><a class="p-jump" href="#sj-content">查看经历 →</a></div>
+      </article>
+      <article class="project placeholder glass" aria-label="可补充作品链接">
+        <div class="p-head"><span class="tag tag-c">待补充</span></div>
+        <h3>【可补充作品链接】</h3>
+        <p class="p-sum">此处预留给作品集、项目案例或数据复盘文档的链接。编辑 index.html 中本卡片即可添加。</p>
+        <div class="p-actions"><span class="p-plus">＋</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-head reveal">
+      <span class="eyebrow">05 · EDUCATION</span>
+      <h2>教育背景</h2>
+    </div>
+    <article class="edu glass tilt reveal">
+      <div class="edu-badge" style="font-family:var(--mono);font-size:11px;letter-spacing:.1em;filter:none">EDU</div>
+      <div class="edu-body">
+        <h3>燕山大学</h3>
+        <p>新媒体运营 · 本科</p>
+      </div>
+      <time>2018.09 – 2022.06</time>
+    </article>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-card glass reveal">
+      <span class="eyebrow">06 · CONTACT</span>
+      <h2>期待与你交流</h2>
+      <p>求职意向：运营 · 男 · 28 岁 · 4 年经验</p>
+      <div class="contact-row">
+        <a class="btn btn-primary magnetic" href="mailto:onej76483@gmail.com"><span>onej76483@gmail.com</span><i>✉</i></a>
+        <button class="btn btn-ghost magnetic" id="copyEmail" type="button"><span>复制邮箱</span><i>⧉</i></button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">© Jone · 运营简历</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/main.js"></script>
+<script src="assets/model-avatar.js"></script>
+<script src="assets/boy3d.js"></script>
+</body>
+</html>
